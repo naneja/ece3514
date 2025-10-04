@@ -11,8 +11,6 @@ add_executable(dsac src/main.cpp)
 
 add_executable(
     my_test 
-    #tests/test_vector_1.cpp 
-    #tests/test_vector_2.cpp
     tests/test_linked_list.cpp
 )
 
