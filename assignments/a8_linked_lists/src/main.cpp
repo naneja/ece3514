@@ -26,15 +26,17 @@ int main() {
         std::cout << x << ' ';
 
     //attach the contents of list M to end of the current list and clears list M
-    //// No nodes are copied or allocated; only pointer links are adjusted.
+    // No nodes are copied or allocated; only pointer links are adjusted.
     SL.concatenate(SM);
 
     // Use range-based for to display after concatenate
     // works using begin and end
     std::cout << "\nSL: ";
-    for (int x : SL) std::cout << x << ' ';
+    for (int x : SL) 
+        std::cout << x << ' ';
     std::cout << "\nSM: ";
-    for (int x : SM) std::cout << x << ' ';
+    for (int x : SM) 
+        std::cout << x << ' ';
 
     // Reverses the linked list in place
     SL.reverse();
@@ -71,7 +73,7 @@ int main() {
     // After the operation, M becomes an empty list
     // No nodes are copied or allocated; only pointer links are adjusted.
     // Does nothing if M is empty or if this and M are the same list.
-    DL.concat(DM);
+    DL.concatenate(DM);
 
     std::cout << "\nDL: ";
     for (int x : DL) 
