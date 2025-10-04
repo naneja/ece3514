@@ -30,6 +30,7 @@
   * These functions must be implemented using pointer links without copy/move operation.
 * Please note main.cpp or test.cpp are not required for this assignment. 
 * No points will be awarded if instructions are not followed irrespective of autograder passing test cases.
+* Please don't submit build/exe files/folder [-2 points]
 
 
 
