@@ -2,7 +2,7 @@
 
 #include <utility> // for std::swap
 
-namespace dsac::list {
+namespace dsa::list {
 
 // similar to std::forward_list
 template <typename T>

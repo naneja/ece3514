@@ -2,7 +2,7 @@
 
 #include <utility>     // provides std::swap
 
-namespace dsac::list {
+namespace dsa::list {
 
 /// circularly linked list
 template <typename T>

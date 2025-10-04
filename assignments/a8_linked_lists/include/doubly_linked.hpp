@@ -2,7 +2,7 @@
 
 #include <utility>     // provides std::swap
 
-namespace dsac::list {
+namespace dsa::list {
 
 // doubly linked list, similar to std::list
 template <typename T>
