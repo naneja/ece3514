@@ -7,7 +7,7 @@
 
 int main() {
     // Create Two Singly Linked Lists
-    dsac::list::SinglyLinkedList<int> SL, SM;
+    dsa::list::SinglyLinkedList<int> SL, SM;
 
     // Add elements
     SL.push_back(1); SL.push_back(2);
@@ -45,8 +45,8 @@ int main() {
     std::cout << "\n";
 
     // Create Doubly Linked List
-    dsac::list::DoublyLinkedList<int> DL;
-    dsac::list::DoublyLinkedList<int> DM;
+    dsa::list::DoublyLinkedList<int> DL;
+    dsa::list::DoublyLinkedList<int> DM;
 
     // Add elements to the lists
     DL.push_back(1);
@@ -85,7 +85,7 @@ int main() {
     std::cout << "\n";
 
     // Create three Circularly Linked List
-    dsac::list::CircularlyLinkedList<int> L, A, B;
+    dsa::list::CircularlyLinkedList<int> L, A, B;
     // Add elements to the list
     for (int i{1}; i<=6; i++) 
         L.push_back(i);
