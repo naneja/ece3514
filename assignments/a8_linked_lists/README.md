@@ -1,8 +1,4 @@
-# A8: Linked Lists [Limited Submissions]
-
-* You will get a window of a maximum of 120 minutes to submit the final assignment from your first submission.
-
-* During these 120 minutes, you may submit multiple times, and the last submission is considered the final submission.
+# A8: Linked Lists
 
 * This assignment is to implement:
   * singly_linked.hpp
