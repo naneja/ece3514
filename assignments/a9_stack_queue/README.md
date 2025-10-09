@@ -74,7 +74,13 @@ Submissions:
 
 * algos.hpp with implementation of above functions 
   * You should use std::stack, std::queue, std::string
-* test.cpp with at least five test cases (can be based on above input/output)
+* test.cpp with at least six test cases (can be based on above input/output)
 * main.cpp is not required
 * Negative Points for not following the instructions
+
+Rubrics:
+
+* Autograder: 26 Points
+* Test Cases: 9 Points (3 points for each problem)
 * -2 points for build/exe uploads
+* Negative Points for not following instructions 
