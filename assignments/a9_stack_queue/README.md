@@ -68,9 +68,7 @@ bool stack_contains_restore(std::stack<T>& S, std::queue<T>& Q, const T& x);
 | S = {5}; Q={}; x=5                             | True                                                 | S = {5}; Q={}; x=5                            |
 | S = {5}; Q={}; x=10                            | False                                                | S = {5}; Q={}; x=5                            |
 
-
-
-Submissions:
+## Submissions:
 
 * algos.hpp with implementation of above functions 
   * You should use std::stack, std::queue, std::string
@@ -78,7 +76,7 @@ Submissions:
 * main.cpp is not required
 * Negative Points for not following the instructions
 
-Rubrics:
+## Rubrics:
 
 * Autograder: 26 Points
 * Test Cases: 9 Points (3 points for each problem)
