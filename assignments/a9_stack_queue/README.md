@@ -1,6 +1,8 @@
 # A9: Stack Queue
 
-In this assignment you will solve three problems using stack and queue
+In this assignment you will solve three problems using stack and queue. 
+
+**You can use std::reverse when required.**
 
 ## Problem 1: Remove Adjacent Duplicates Using Stack
 
