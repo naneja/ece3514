@@ -13,7 +13,6 @@ int main() {
     T.add_left(r.right(), 30);
 
     //modify above code to try different trees before submission
-    std::cout << "Max depth: " << T.max_depth() << "\n"; //3
 
     std::cout << "Left Nodes: " << T.count_left_leaves_bfs() << "\n"; //2
     std::cout << "Left Nodes: " << T.count_left_leaves() << "\n"; //2
