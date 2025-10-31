@@ -67,5 +67,5 @@ The function returns the k largest elements of A, in descending order
 
 ### Rubrics:
 
-* Use Priority Queue on all operations. Vector is used to read the data.
+* Use Priority Queue on all operations. Vector is used efficiently to read the data.
 * Priority Queue size never exceeds square_root(N) in Problem 2.
