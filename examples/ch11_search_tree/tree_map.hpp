@@ -120,13 +120,13 @@ protected:
         Node* restructure(Node* x) {
             Node* y = x->parent;
             Node* z = y->parent;
-            if ((x == y->right) == (y == z->right)) {                // matching alignments
-                rotate(y);                                           // single rotation (of y)
-                return y;                                            // y is new subtree root
-            } else {                                                 // opposite alignments
-                rotate(x);                                           // double rotation (of x)
+            if ((x == y->right) == (y == z->right)) {     // matching alignments
+                rotate(y);                                // single rotation (of y)
+                return y;                                 // y is new subtree root
+            } else {                                      // opposite alignments
+                rotate(x);                                // double rotation (of x)
                 rotate(x);
-                return x;                                            // x is new subtree root
+                return x;                                 // x is new subtree root
             }
         }
     }; // --------- end of nested BalanceableBinaryTree class ------------
