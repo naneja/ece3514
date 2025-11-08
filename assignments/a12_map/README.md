@@ -209,7 +209,7 @@ Top API Endpoint(s) with 3 calls:
 ## Rubrics
 
 * Include Guards in all header files [1 point]
-* Proper Use of STL Maps [2 points]
+* Proper Use of STL Maps [Autograder Points + 4 points - deduction if any]
   * unordered_map for Module 1, 2, 4
   * map (ordered) for Module 3
   * Autograder and manual check will confirm correct usage
