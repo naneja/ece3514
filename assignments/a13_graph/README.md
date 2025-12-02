@@ -1,4 +1,4 @@
-# A14_Graph Project Assignment: Shortest Path in a Binary Matrix (BFS)
+# A13_Graph Project Assignment: Shortest Path in a Binary Matrix (BFS)
 
 ## Problem Description
 
@@ -102,8 +102,7 @@ result = shortestPathBinaryMatrix(grid4);
 std::cout << "Shortest Path = " << result << "\n";//3 (all diagonal)
 ```
 
-
-
 # Submissions:
 
-​	shortest_path.hpp
+* grid_path.hpp
+* grid_path.cpp
