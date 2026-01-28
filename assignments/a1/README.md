@@ -19,6 +19,7 @@
    - Publish at minimum:
      - Home/landing page (short professional bio)
      - Contact information (professional email, affiliation, links GitHub)
+       - Depending on the template there should be config.yaml or similar file
 4. **Command-line Git workflow**
    - All updates should be committed and pushed from the terminal/command line (no “upload via web UI” as the primary workflow).
 
