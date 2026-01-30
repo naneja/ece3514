@@ -80,8 +80,6 @@ long long countModOpsSqrt(int lo, int hi);
    - If any modulus result is `0`, then `n` is **not prime**.
    - If no divisor divides `n`, then `n` is **prime**.
 
-### 
-
 ## `countModOpsHalf` and `countModOpsSqrt`
 
 These functions measure the *total* number of modulo operations used by each algorithm over a **range of numbers**.
@@ -123,7 +121,7 @@ These functions measure the *total* number of modulo operations used by each alg
 #include "prime.hpp"
 
 int main() {
-    constexpr int LO = 2, HI = 10'000;
+    const int LO = 2, HI = 10'000;
 
     long long halfOps = countModOpsHalf(LO, HI);
     long long sqrtOps = countModOpsSqrt(LO, HI);
