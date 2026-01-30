@@ -131,8 +131,6 @@ int main() {
 }
 ```
 
-
-
  
 
 ### Rubrics
@@ -144,6 +142,7 @@ int main() {
 | Include Guards                                               | 1      |
 | Correct and Complete Test Cases                              | 10     |
 | Submission is via Private GitHub Repo (Negative Five Points if Public Repo used) | -5     |
+| Negative Points for uploading build folder or any folder with executables | -2     |
 
 
 
@@ -159,3 +158,16 @@ int main() {
 8. [isPrimeHalf] Correct behavior when modOps == nullptr
 9. countModOpsHalf(lo, hi)
 10. countModOpsSqrt(lo, hi)
+
+## Submission via Gradescope
+
+* **Submit your CMake Project (without build folder)**
+  * Negative Points for uploading build folder or any folder with executables
+  * Use Private Git Repo (negative points for using public repo)
+* Submission Files:
+  * include/prime.hpp
+  * src/prime.cpp
+  * src/main.cpp
+  * tests/catch2/catch.hpp	
+  * tests/test.cpp
+  * CMakeLists.txt
