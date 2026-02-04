@@ -142,7 +142,7 @@ int main() {
 | Include Guards                                               | 1      |
 | Correct and Complete Test Cases                              | 10     |
 | Submission is via Private GitHub Repo (Negative Five Points if Public Repo used) | -5     |
-| Negative Points for uploading build folder or any folder with executables | -2     |
+| Negative Points for uploading build folder or any folder with executables <br/>Use .gitignore to avoid uploading the build folder. See the slides as how to use .gitignore. | -2     |
 
 
 
@@ -171,3 +171,4 @@ int main() {
   * tests/catch2/catch.hpp	
   * tests/test.cpp
   * CMakeLists.txt
+* Use .gitignore to avoid uploading the build folder. See the slides as how to use .gitignore.
