@@ -1,8 +1,4 @@
-# Practice Lab Assignment 2.4.1
-
-> Inheritance and Polymorphism
-
-## Lab : Inheritance, Overriding, and Polymorphism with Credit Card
+# Practice Lab Assignment 2.4.1: Inheritance, Overriding, and Polymorphism with Credit Card
 
 
 
