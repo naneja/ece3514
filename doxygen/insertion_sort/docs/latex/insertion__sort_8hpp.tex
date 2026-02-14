@@ -1,0 +1,89 @@
+\doxysection{insertion\+\_\+sort.\+hpp File Reference}
+\hypertarget{insertion__sort_8hpp}{}\label{insertion__sort_8hpp}\index{insertion\_sort.hpp@{insertion\_sort.hpp}}
+{\ttfamily \+\#include $<$iostream$>$}\newline
+{\ttfamily \+\#include $<$utility$>$}\newline
+Include dependency graph for insertion\+\_\+sort.\+hpp:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{insertion__sort_8hpp__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=173pt]{insertion__sort_8hpp__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T$>$ }\\void \doxymbox{\hyperlink{insertion__sort_8hpp_a0d5e746fd9a41e6e6eedc47723f5c03f}{insertion\+\_\+sort}} (T \texorpdfstring{$\ast$}{*}data, int n)
+\begin{DoxyCompactList}\small\item\em Sorts an array using the insertion sort algorithm. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\label{doc-func-members}
+\Hypertarget{insertion__sort_8hpp_doc-func-members}
+\doxysubsection{Function Documentation}
+\Hypertarget{insertion__sort_8hpp_a0d5e746fd9a41e6e6eedc47723f5c03f}\index{insertion\_sort.hpp@{insertion\_sort.hpp}!insertion\_sort@{insertion\_sort}}
+\index{insertion\_sort@{insertion\_sort}!insertion\_sort.hpp@{insertion\_sort.hpp}}
+\doxysubsubsection{\texorpdfstring{insertion\_sort()}{insertion\_sort()}}
+{\footnotesize\ttfamily \label{insertion__sort_8hpp_a0d5e746fd9a41e6e6eedc47723f5c03f} 
+template$<$typename T$>$ \\
+void insertion\+\_\+sort (\begin{DoxyParamCaption}\item[{T \texorpdfstring{$\ast$}{*}}]{data}{, }\item[{int}]{n}{}\end{DoxyParamCaption})}
+
+
+
+Sorts an array using the insertion sort algorithm. 
+
+Reorders the elements in the range \+[data, data + n) into non-\/decreasing order using insertion sort.
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Type of elements stored in the array.\\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em data} & Pointer to the first element of the array. \\
+\hline
+{\em n} & Number of elements in the array.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+data must point to a valid array of at least n elements. 
+
+Type T must support:\+
+\begin{DoxyItemize}
+\item Move assignment
+\item Copy construction
+\item operator\texorpdfstring{$<$}{<} comparison
+\end{DoxyItemize}
+\end{DoxyPrecond}
+@complexity Worst-\/case:\+ O(n\texorpdfstring{$^\wedge$}{\string^}2) comparisons and moves Best-\/case:\+ O(n) (already sorted input)
+
+\begin{DoxyNote}{Note}
+Stable sorting algorithm.
+\end{DoxyNote}
+\begin{DoxyWarning}{Warning}
+Behavior is undefined if data is null and n \texorpdfstring{$>$}{>} 0. 
+\end{DoxyWarning}
+
+
+Definition at line \doxymbox{\hyperlink{insertion__sort_8hpp_source_l00030}{30}} of file \doxymbox{\hyperlink{insertion__sort_8hpp_source}{insertion\+\_\+sort.\+hpp}}.
+
+
+
+Referenced by \doxymbox{\hyperlink{main_8cpp_source_l00006}{main()}}.
+
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{insertion__sort_8hpp_a0d5e746fd9a41e6e6eedc47723f5c03f_icgraph}
+\end{center}
+\end{figure}

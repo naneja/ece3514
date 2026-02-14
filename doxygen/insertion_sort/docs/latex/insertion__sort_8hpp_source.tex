@@ -1,0 +1,28 @@
+\doxysection{insertion\+\_\+sort.\+hpp}
+\hypertarget{insertion__sort_8hpp_source}{}\label{insertion__sort_8hpp_source}\doxymbox{\hyperlink{insertion__sort_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00001}00001\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00002}00002\ \textcolor{preprocessor}{\#include\ <utility>}\ \ \textcolor{comment}{//\ for\ std::move}}
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00003}00003\ }
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00029}00029\ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00030}\doxymbox{\hyperlink{insertion__sort_8hpp_a0d5e746fd9a41e6e6eedc47723f5c03f}{00030}}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{insertion__sort_8hpp_a0d5e746fd9a41e6e6eedc47723f5c03f}{insertion\_sort}}(T*\ data,\ \textcolor{keywordtype}{int}\ n)\ \{}
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00031}00031\ }
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00032}00032\ \ \ \ \ \textcolor{comment}{//\ Begin\ with\ the\ second\ element\ since\ a\ single\ element\ is\ trivially\ sorted}}
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00033}00033\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ k\{1\};\ k\ <\ n;\ k++)\ \{}
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00034}00034\ }
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00035}00035\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Store\ current\ element\ to\ be\ positioned\ correctly}}
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00036}00036\ \ \ \ \ \ \ \ \ T\ cur\{data[k]\};}
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00037}00037\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ j\{k\};}
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00038}00038\ }
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00039}00039\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Shift\ elements\ greater\ than\ cur\ one\ position\ to\ the\ right}}
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00040}00040\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (j\ >\ 0\ \&\&\ cur\ <\ data[j\ -\/\ 1])\ \{}
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00041}00041\ \ \ \ \ \ \ \ \ \ \ \ \ data[j]\ =\ std::move(data[j\ -\/\ 1]);\ \ \textcolor{comment}{//\ move\ element\ to\ the\ right}}
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00042}00042\ \ \ \ \ \ \ \ \ \ \ \ \ j-\/-\/;}
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00043}00043\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00044}00044\ }
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00045}00045\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Place\ stored\ element\ into\ its\ correct\ position}}
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00046}00046\ \ \ \ \ \ \ \ \ data[j]\ =\ cur;}
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00047}00047\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{insertion__sort_8hpp_source_l00048}00048\ \}}
+
+\end{DoxyCode}
