@@ -106,3 +106,12 @@ cstr: olleh
 * main.cpp // use generic versions as below
 * test.cpp // test cases
 * CMakeLists.txt
+
+## Rubrics
+
+* Autograder: 4.5 Points
+* Used two-index approach as described above: 4.5 Points
+* test.cpp: 6 Points
+  * test coverage of reverse_array with different data types
+  * No need to write test case for print_array
+
