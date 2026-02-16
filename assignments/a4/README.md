@@ -20,7 +20,7 @@ Reversing an array (or string) means rearranging its elements so that their orde
 ## Requirements
 
 * reverse_array
-  * Must use a two-index approach (i and j)
+  * Must use a two-index approach (i and j) [non-recursive]
   * Swap elements from beginning and end
   * Continue until indices meet
   * Must work for:
