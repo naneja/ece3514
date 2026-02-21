@@ -4,7 +4,7 @@
 
 * The lower bound gives us a position where one can insert the target value to maintain the sorted order
 * The position of the first element that is not less than the target $t$.
-* $lower\_bound(arr, n, t)$ returns first index with $arr[i] >= t$ or returns $n$ if no such element
+* `lower\_bound(arr, n, t)` returns first index with `arr[i] >= t` or returns $n$ if no such element
 
 Example: Array: arr = [2, 5, 5, 5, 10] and n = 5 
 | Function Call            | return value | Interpretation                                             |
@@ -20,7 +20,7 @@ Example: Array: arr = [2, 5, 5, 5, 10] and n = 5
 
 * The Upper Bound gives us a position to insert the target value to maintain the sorted order
 * The position of the first element that is greater than (>) the target value
-* $upper\_bound(arr, n, t)$ returns the first index $i$ with $arr[i] > x$ (or $n$ if none)
+* `upper\_bound(arr, n, t)` returns the first index $i$ with `arr[i] > x` (or $n$ if none)
 
 Example: Array: arr = [2, 5, 5, 5, 10] and n=5
 
@@ -36,7 +36,7 @@ Example: Array: arr = [2, 5, 5, 5, 10] and n=5
 ## Frequency
 
 * number of occurrences of the target value in the array
-* $frequency(arr, n, t)$ calculate as $upper\_bound - lower\_bound$
+* `frequency(arr, n, t)` calculate as `upper\_bound - lower\_bound`
 
 Example: Array: arr = [2, 5, 5, 5, 10] and n = 5
 
