@@ -199,10 +199,10 @@ All tests passed!
 | Criteria                                                     | Points |
 | ------------------------------------------------------------ | ------ |
 | Autograder                                                   | 7      |
-| Verification: $lower\_bound$, $upper\_bound$, and $frequency$ use recursive helper functions | 2      |
-| Verification: $lower\_bound\_iterative$, $upper\_bound\_iterative$, $frequency\_iterative$ have iterative implementation | 2      |
+| Verification: `lower_bound`, `upper_bound`, and `frequency` use recursive helper functions | 2      |
+| Verification: `lower_bound_iterative`, `upper_bound_iterative`, `frequency_iterative` have iterative implementation | 2      |
 | test.cpp (test coverage)                                     | 4      |
-| Negative Points for using library functions inside required implementation: <br> $lower\_bound$, $upper\_bound$, $frequency$ <br>$lower\_boun\_recursive$, $upper\_bound\_recursive$<br>$lower\_bound\_iterative$, $upper\_bound\_iterative$, $frequency\_iterative$ | -4     |
+| Negative Points for using library functions inside required implementation: <br>`lower_bound`, `upper_bound`, `frequency`<br/>`lower_bound_recursive`, `upper_bound_recursive`<br/>`lower_bound_iterative`, `upper_bound_iterative`, `frequency_iterative` | -4     |
 | Build folder uploaded                                        | -1     |
 | Negative points for public repo                              | -15    |
 
