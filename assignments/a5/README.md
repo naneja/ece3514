@@ -4,7 +4,7 @@
 
 * The lower bound gives us a position where one can insert the target value to maintain the sorted order
 * The position of the first element that is not less than the target $t$.
-* `lower\_bound(arr, n, t)` returns first index with `arr[i] >= t` or returns $n$ if no such element
+* `lower_bound(arr, n, t)` returns first index with `arr[i] >= t` or returns $n$ if no such element
 
 Example: Array: arr = [2, 5, 5, 5, 10] and n = 5 
 | Function Call            | return value | Interpretation                                             |
@@ -20,23 +20,23 @@ Example: Array: arr = [2, 5, 5, 5, 10] and n = 5
 
 * The Upper Bound gives us a position to insert the target value to maintain the sorted order
 * The position of the first element that is greater than (>) the target value
-* `upper\_bound(arr, n, t)` returns the first index $i$ with `arr[i] > x` (or $n$ if none)
+* `upper_bound(arr, n, t)` returns the first index $i$ with `arr[i] > x` (or $n$ if none)
 
 Example: Array: arr = [2, 5, 5, 5, 10] and n=5
 
 | Function Call            | return value | Interpretation                                               |
 | ------------------------ | ------------ | ------------------------------------------------------------ |
-| upper\_bound(arr, n, 5)  | 4            | 5 can be inserted at index 4 to maintain the sorted order (after last 5, before 10) |
-| upper\_bound(arr, n, 3)  | 1            | 3 can be inserted at index 1 to maintain the sorted order (same as lower bound if the target value does not exist in the array) |
-| upper\_bound(arr, n, 0)  | 0            | 0 can be inserted at index 0 to maintain the sorted order (same as lower bound if the target value does not exist in the array) |
-| upper\_bound(arr, n, 15) | 5            | 15 can be inserted at index 5 to maintain the sorted order (same as lower bound if the target value does not exist in the array) |
+| upper\_bound(arr, n, 5)  | 4            | 5 can be inserted at index 4 to maintain the sorted order <br>(after last 5, before 10) |
+| upper\_bound(arr, n, 3)  | 1            | 3 can be inserted at index 1 to maintain the sorted order<br> (same as lower bound if the target value does not exist in the array) |
+| upper\_bound(arr, n, 0)  | 0            | 0 can be inserted at index 0 to maintain the sorted order<br> (same as lower bound if the target value does not exist in the array) |
+| upper\_bound(arr, n, 15) | 5            | 15 can be inserted at index 5 to maintain the sorted order<br> (same as lower bound if the target value does not exist in the array) |
 
 
 
 ## Frequency
 
 * number of occurrences of the target value in the array
-* `frequency(arr, n, t)` calculate as `upper\_bound - lower\_bound`
+* `frequency(arr, n, t)` calculate as `upper_bound - lower_bound`
 
 Example: Array: arr = [2, 5, 5, 5, 10] and n = 5
 
