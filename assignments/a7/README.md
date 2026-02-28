@@ -1,4 +1,4 @@
-# A7: Build a Simplified std::vector (Dynamic Array) (Part 1)
+# A7: Build a Simplified vector class (Part 1)
 
 * In this lab you will complete and test a simplified dynamic array class, `dsac::array::Vector<T>`, that behaves similarly to std::vector. 
 * You will focus on capacity management, shifting elements for insert/erase, and safe access.
