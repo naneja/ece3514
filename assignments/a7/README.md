@@ -120,7 +120,7 @@ public:
 
 * Minimum two files:
   * include/array/vector.hpp
-  * tests/test.hpp
+  * tests/test.cpp
 * No build or exe files must be submitted
 * Must be via Private GitHub Repo
 
