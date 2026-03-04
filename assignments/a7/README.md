@@ -108,7 +108,7 @@ public:
 * You can create a const vector as below for testing
 
   ```cpp
-  dsa::Vector<int> v;
+  dsac::array::Vector<int> v;
   for (int i{0}; i < 5; ++i) 
       v.push_back(i);
   const dsa::Vector<int>& cv = v;
