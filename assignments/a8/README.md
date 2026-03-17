@@ -27,7 +27,8 @@
 * There are two files for testing
   * test_vector_1.cpp (you may copy all of the previous test cases in this)
   * test_vector_2.cpp (this file is to write new test cases for part 2 of the assignment)
-  * Please note \#define CATCH_CONFIG_MAIN should be in only one test file. This has been commented in test_vector_2.cpp.
+  * test_matrix.cpp (this file is to write test cases for matrix operation)
+  * Please note \#define CATCH_CONFIG_MAIN should be in only one test file. This has been commented in test_vector_2.cpp and test_matrix.cpp.
 * CMakeLists.txt is configured to use both test files
 
 
@@ -36,7 +37,7 @@
 
 * vector.hpp
 * matrix.hpp
-* test_vector.cpp
+* test_vector_1.cpp and test_vector_1.cpp
   * test cases for vector.hpp
 * test_matrix.cpp
   * test cases for matrix.hpp

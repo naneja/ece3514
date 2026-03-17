@@ -6,7 +6,7 @@
 #include "array/matrix.hpp"
 
 
-TEST_CASE("Vector test case", "[tag]") {
+TEST_CASE("Matrix addition: same dimensions", "[tag]") {
     REQUIRE(true);
 }
 
