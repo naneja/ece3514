@@ -46,9 +46,9 @@
   * test files
 
     * test_vector_1.cpp 
-    * test cases from previous assignment A7
+      * test cases from previous assignment A7
     * test_vector_2.cpp 
-    * test cases for vector.hpp for this assignment as per the rubrics
+      * test cases for vector.hpp for this assignment as per the rubrics
 
     * test_matrix.cpp 
       * test cases for matrix.hpp for this assignment as per the rubrics
