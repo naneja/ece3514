@@ -22,6 +22,7 @@
 
 ## Starter code
 
+* Clone the repo: https://github.com/naneja/ece3514/tree/main/assignments/a8
 * include/array/vector.hpp
 * include/array/matrix.hpp
 * There are two files for testing
@@ -36,11 +37,19 @@
 ## Submissions:
 
 * vector.hpp
+
 * matrix.hpp
-* test_vector_1.cpp and test_vector_1.cpp
-  * test cases for vector.hpp
-* test_matrix.cpp
-  * test cases for matrix.hpp
+
+* test files
+
+  * test_vector_1.cpp 
+    * test cases from previous assignment A7
+  * test_vector_2.cpp 
+    * test cases for vector.hpp for this assignment as per the rubrics
+
+  * test_matrix.cpp 
+    * test cases for matrix.hpp for this assignment as per the rubrics
+
 * Please don't submit the build or executable folder [negative two points if submitted]
 
 # Rubrics
@@ -53,7 +62,7 @@
 * Manual Grading: 12 Points
 
   * Student Test Cases to cover:
-    * at least four different test cases for iterator
+    * at least four different test cases for iterator in 'test'
     * at least four different test cases for const iterator
     * at least four test cases for matrix (including one for addition)
 
