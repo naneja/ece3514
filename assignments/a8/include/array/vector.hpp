@@ -96,8 +96,6 @@ class Vector {
 
         iterator erase(iterator it);
 
-        void reallocate(int new_cap);
-
         void shrink();
         
         void shrink_to_fit();
