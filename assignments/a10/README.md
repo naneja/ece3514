@@ -2,9 +2,10 @@
 
 <p>
   <a href="https://raw.githubusercontent.com/naneja/ece3514/main/assignments/a10/a10_stack_queue.zip">
-    <img src="https://img.shields.io/badge/Download-Starter%20Code-blue?style=for-the-badge" alt="Download Starter Code">
+    <img src="https://img.shields.io/badge/Download-A10%20Starter%20Code-blue?style=for-the-badge" alt="Download Starter Code">
   </a>
 </p>
+
 
 
 In this assignment, you will solve three problems using a stack and a queue. 
@@ -106,7 +107,7 @@ bool stack_contains(
   * implementation of above functions for Problem1, Problem 2, Problem 3
 
 * test_stack_queue_utils.cpp
-  * catch2 test cases for above functions for Problem1, Problem 2, Problem 3
+  * at least one catch2 test case for each of the above functions for Problem 1, Problem 2, Problem 3, stack.hpp, and queue.hpp
 
 * array_queue.hpp
   * simplified implementation of queue using vector.hpp
@@ -131,6 +132,6 @@ bool stack_contains(
 | ------------------------------------------------------------ | ---- |
 | Autograder Instructor Test Cases                             | 6    |
 | Autograder Student Test Cases                                | 2    |
-| Manual Grading of stack_queue_utils.hpp (if instructions folowed as mentioned above) | 5    |
-| Manual Grading for test cases test_stack_queue_utils.cpp (at least two cases for stack.hpp and queue.hpp) | 2    |
+| Manual Grading of stack_queue_utils.hpp (if instructions followed as mentioned above) | 5    |
+| Manual Grading for test cases in the test_stack_queue_utils.cpp (at least one catch2 test case for each of the above functions for Problem 1, Problem 2, Problem 3, stack.hpp, and queue.hpp) | 2    |
 | Negative Points for build folder submitted                   | -2   |
