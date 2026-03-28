@@ -1,12 +1,10 @@
-# A10: [Stack Queue](https://raw.githubusercontent.com/naneja/ece3514/main/assignments/a10/a10_stack_queue.zip)
+# A10: Stack Queue
 
-<p>
-  <a href="https://raw.githubusercontent.com/naneja/ece3514/main/assignments/a10/a10_stack_queue.zip">
-    <img src="https://img.shields.io/badge/Download-A10%20Starter%20Code-blue?style=for-the-badge" alt="Download Starter Code">
-  </a>
-</p>
+Starter Code: [download](https://raw.githubusercontent.com/naneja/ece3514/main/assignments/a10/a10_stack_queue.zip)
 
 In this assignment, you will solve three problems using a stack and a queue. 
+
+
 
 ## Problem 1: Remove Adjacent Duplicates Using Stack
 
