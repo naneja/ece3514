@@ -1,12 +1,10 @@
-# A10: Stack Queue
+# A10: [Stack Queue](https://raw.githubusercontent.com/naneja/ece3514/main/assignments/a10/a10_stack_queue.zip)
 
 <p>
   <a href="https://raw.githubusercontent.com/naneja/ece3514/main/assignments/a10/a10_stack_queue.zip">
     <img src="https://img.shields.io/badge/Download-A10%20Starter%20Code-blue?style=for-the-badge" alt="Download Starter Code">
   </a>
 </p>
-
-
 
 In this assignment, you will solve three problems using a stack and a queue. 
 
