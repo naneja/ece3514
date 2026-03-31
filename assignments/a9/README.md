@@ -16,11 +16,26 @@ A sample main.cpp is included to demonstrate expected behavior and sample output
 * In addition, you must implement the following functions:
 * SinglyLinkedList
   * concatenate for SinglyLinkedList
+    * If L = {1,2,3,4} and M = {5,6,7,8}
+    * L.concatenate(M) =>
+      * L = {1,2,3,4,5,6,7,8}
+      * M = {}
   * reverse for SinglyLinkedList
+    * If L = {1,2,3,4,5,6,7,8}
+    * L.reverse() =>
+      * L = {8,7,6,5,4,3,2,1}
 * CircularlyLinkedList
   * splitEven for CircularlyLinkedList
+  * Three Lists: L, A, B
+  * If L = {1,2,3,4,5,6}
+  * L.splitEven(A,B) =>
+    * A = {1,2,3} and B = {4,5,6}
 * DoublyLinkedList
   * concatenate for DoublyLinkedList
+  * If L = {1,2,3} and M = {4,5,6}
+  * L.concatenate(M) =>
+    * L = {1,2,3,4,5,6}
+    * M = {}
 
 ## Important constraint
 
